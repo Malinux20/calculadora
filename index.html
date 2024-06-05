@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="stilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora</h1>
+        <h3>Capture el valor 1</h3>
+        <input type="number" id="v1">
+        <h3>Capture el valor 2</h3>
+        <input type="number" id="v2">
+        <h3>Operación</h3>
+        <select id="operation">
+            <h1>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </h1>
+        </select>
+        <br><br>
+        <button onclick="calcular()">Calcular</button>
+        <h3>Resultado</h3>
+        <input type="number" id="res" readonly>
+    </div>
+    <script src="javascript.js"></script>
+
+</body>
+</html>
